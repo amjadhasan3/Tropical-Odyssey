@@ -1,0 +1,106 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:mv boli;
+	
+}
+
+/*background and text color for the body area*/
+body.bodyBackground
+{
+	background:linear-gradient(to right, #072F5F, #1261A0, #072F5F, #1261A0, #072F5F);
+	color:white;
+}
+
+
+
+.navLinks
+{
+	padding:1%;
+	float:right;
+}
+
+
+
+/*list*/
+.navLinks ul li 
+{
+	list-style-type:none;
+	display:inline;
+	padding: 10px;
+	position:relative;
+	background:white;
+}
+
+/*anchor tags*/
+.navLinks ul li a
+{
+	color:black;
+	text-decoration:none;
+	font-size:22px;
+	font-weight:bold;
+	padding:3px;
+}
+
+/*link hover effect*/
+.navLinks ul li a:hover
+{
+	text-decoration:underline;
+}
+
+/*link onclick effect*/
+.navLinks ul li a:active
+{
+	color:#1261A0;
+}
+
+/*positioning the div element*/
+#homePageTextBox
+{
+	color:white; 
+	width:60%;
+	position:absolute;
+	left:50%;
+	top:50%;
+	right:50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+}
+
+
+/*font size of welcome text*/
+#homePageTextBox h1
+{
+	font-size:62px;
+}
+
+/*font size and weight of welcome paragraph*/
+#homePageTextBox p
+{
+	font-size:23px;
+	font-weight:bold;
+	
+}
+
+/*Padding between the images*/
+#homePageContent
+{
+	padding:3%;
+}
+
+/*font size of h1 additional content*/
+#homePageContent h1
+{
+	font-size:50px;
+}
+
+/*styling for p tag of additional content*/
+#homePageContent p
+{
+	font-size:23px;
+	color:black;
+	text-align:center;
+	font-weight:bold;
+}
+
